@@ -14,6 +14,7 @@
 		FA43A9A31B3DCEA600D036E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA43A9A21B3DCEA600D036E8 /* Images.xcassets */; };
 		FA43A9A61B3DCEA600D036E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA43A9A41B3DCEA600D036E8 /* LaunchScreen.xib */; };
 		FA43A9B21B3DCEA600D036E8 /* tutorial_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43A9B11B3DCEA600D036E8 /* tutorial_swiftTests.swift */; };
+		FAE97CD81B4DDEC6006CE0D3 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97CD71B4DDEC6006CE0D3 /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		FA43A9AB1B3DCEA600D036E8 /* tutorial_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorial_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA43A9B01B3DCEA600D036E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA43A9B11B3DCEA600D036E8 /* tutorial_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorial_swiftTests.swift; sourceTree = "<group>"; };
+		FAE97CD71B4DDEC6006CE0D3 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				FA43A9981B3DCEA500D036E8 /* AppDelegate.swift */,
 				FA43A99D1B3DCEA500D036E8 /* SearchResultsViewController.swift */,
 				FA43A99F1B3DCEA600D036E8 /* Main.storyboard */,
+				FAE97CD71B4DDEC6006CE0D3 /* APIController.swift */,
 				FA43A9A21B3DCEA600D036E8 /* Images.xcassets */,
 				FA43A9A41B3DCEA600D036E8 /* LaunchScreen.xib */,
 				FA43A99A1B3DCEA500D036E8 /* tutorial_swift.xcdatamodeld */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE97CD81B4DDEC6006CE0D3 /* APIController.swift in Sources */,
 				FA43A99E1B3DCEA500D036E8 /* SearchResultsViewController.swift in Sources */,
 				FA43A9991B3DCEA500D036E8 /* AppDelegate.swift in Sources */,
 				FA43A99C1B3DCEA500D036E8 /* tutorial_swift.xcdatamodeld in Sources */,
