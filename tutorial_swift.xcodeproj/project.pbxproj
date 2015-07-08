@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA43A9991B3DCEA500D036E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43A9981B3DCEA500D036E8 /* AppDelegate.swift */; };
 		FA43A99C1B3DCEA500D036E8 /* tutorial_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA43A99A1B3DCEA500D036E8 /* tutorial_swift.xcdatamodeld */; };
-		FA43A99E1B3DCEA500D036E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43A99D1B3DCEA500D036E8 /* ViewController.swift */; };
+		FA43A99E1B3DCEA500D036E8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43A99D1B3DCEA500D036E8 /* SearchResultsViewController.swift */; };
 		FA43A9A11B3DCEA600D036E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA43A99F1B3DCEA600D036E8 /* Main.storyboard */; };
 		FA43A9A31B3DCEA600D036E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA43A9A21B3DCEA600D036E8 /* Images.xcassets */; };
 		FA43A9A61B3DCEA600D036E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA43A9A41B3DCEA600D036E8 /* LaunchScreen.xib */; };
@@ -31,7 +31,7 @@
 		FA43A9971B3DCEA500D036E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA43A9981B3DCEA500D036E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA43A99B1B3DCEA500D036E8 /* tutorial_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tutorial_swift.xcdatamodel; sourceTree = "<group>"; };
-		FA43A99D1B3DCEA500D036E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA43A99D1B3DCEA500D036E8 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		FA43A9A01B3DCEA600D036E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA43A9A21B3DCEA600D036E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA43A9A51B3DCEA600D036E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FA43A9981B3DCEA500D036E8 /* AppDelegate.swift */,
-				FA43A99D1B3DCEA500D036E8 /* ViewController.swift */,
+				FA43A99D1B3DCEA500D036E8 /* SearchResultsViewController.swift */,
 				FA43A99F1B3DCEA600D036E8 /* Main.storyboard */,
 				FA43A9A21B3DCEA600D036E8 /* Images.xcassets */,
 				FA43A9A41B3DCEA600D036E8 /* LaunchScreen.xib */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA43A99E1B3DCEA500D036E8 /* ViewController.swift in Sources */,
+				FA43A99E1B3DCEA500D036E8 /* SearchResultsViewController.swift in Sources */,
 				FA43A9991B3DCEA500D036E8 /* AppDelegate.swift in Sources */,
 				FA43A99C1B3DCEA500D036E8 /* tutorial_swift.xcdatamodeld in Sources */,
 			);
@@ -411,6 +411,7 @@
 				FA43A9B71B3DCEA600D036E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA43A9B81B3DCEA600D036E8 /* Build configuration list for PBXNativeTarget "tutorial_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				FA43A9BA1B3DCEA600D036E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
